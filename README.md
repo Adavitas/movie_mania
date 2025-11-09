@@ -4,8 +4,8 @@
 
 ### *A Cinematic Movie Trivia Quiz Game, Final Project for Stanford Code in Place 2025*
   
-[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
-[![Course](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg)](https://codeinplace.stanford.edu/)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
+[![Course](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg?style=for-the-badge)](https://codeinplace.stanford.edu/)
 
 </div>
 
@@ -267,4 +267,4 @@ This project is part of Stanford Code in Place coursework. Please refer to Stanf
 
 ---
 
-*Developed with as part of Stanford Code in Place course.*
+*Developed with Stanford’s Code in Place course.*
