@@ -3,9 +3,9 @@
 # 🎬 Movie Mania
 
 ### *A Cinematic Movie Trivia Quiz Game, Final Project for Stanford Code in Place 2025*
-  
-[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
+
 [![Course](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg?style=for-the-badge)](https://codeinplace.stanford.edu/)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg?style=for-the-badge)](https://www.python.org/downloads/)
 
 </div>
 
@@ -33,7 +33,6 @@
 This project demonstrates proficiency in:
 - Object-oriented programming
 - Event-driven programming
-- GUI development with custom graphics library
 - Modular architecture and clean code practices
 - Data structures and algorithms
 
