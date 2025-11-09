@@ -1,11 +1,12 @@
 <div align="center">
-  <h1>🎬 Movie Mania 🎬</h1>
-  <p><strong>A Cinematic Movie Trivia Quiz Game</strong></p>
-  <p>Final Project for Stanford Code in Place 2025</p>
+
+# 🎬 Movie Mania
+
+### *A Cinematic Movie Trivia Quiz Game, Final Project for Stanford Code in Place 2025*
   
-  [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
-  [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-  [![Course](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg)](https://codeinplace.stanford.edu/)
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+[![Course](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg)](https://codeinplace.stanford.edu/)
+
 </div>
 
 ---
@@ -19,8 +20,9 @@
 - [Game Rules](#game-rules)
 - [Project Structure](#project-structure)
 - [Technical Details](#technical-details)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [Author](#author)
+- [License](#-license)
 
 ---
 
@@ -48,7 +50,7 @@ This project demonstrates proficiency in:
 ### 🆘 Lifelines (3 Available)
 1. **50/50** - Eliminates two wrong answers
 2. **Phone a Friend** - Get a suggestion (80% accuracy)
-3. **Audience Poll** - See what the audience thinks
+3. **Audience Poll** - See what the audience thinks (90% accuracy)
 
 ### 🎨 Visual Features
 - Custom-built graphics library (Stanford CS106A compatible)
@@ -187,27 +189,27 @@ movie_mania/
 ├── README.md                    # This file
 ├── leaderboard.json            # High scores (auto-generated)
 │
-├── graphics/                    # Custom graphics library
+├── 📂 graphics/                    # Custom graphics library
 │   ├── __init__.py
-│   ├── canvas.py               # Canvas class (203 lines, 17 methods)
-│   ├── drawing.py              # Shape/text drawing (4 functions)
-│   ├── input.py                # Keyboard/mouse input (4 functions)
-│   └── utils.py                # Color utilities (3 functions)
+│   ├── canvas.py               # Canvas class
+│   ├── drawing.py              # Shape/text drawing 
+│   ├── input.py                # Keyboard/mouse input 
+│   └── utils.py                # Color utilities 
 │
-└── src/                        # Game source code
+└── 📂 src/                        # Game source code
     ├── config.py               # Game constants & settings
     │
-    ├── data/
+    ├── 📂 data/
     │   └── questions.py        # 100 trivia questions
     │
-    ├── game/                   # Core game logic
+    ├── 📂 game/                   # Core game logic
     │   ├── input.py            # Player input handling
     │   ├── leaderboard.py      # High score system
     │   ├── lifelines.py        # Lifeline implementations
     │   ├── questions.py        # Question management
     │   └── quiz.py             # Main game loop
     │
-    └── ui/                     # User interface
+    └── 📂 ui/                     # User interface
         ├── animations.py       # Visual effects
         ├── graphics.py         # UI components
         ├── screens.py          # Game screens
@@ -224,13 +226,6 @@ movie_mania/
 - **Event-Driven**: Responsive to keyboard and mouse events
 - **Data-Driven**: Questions stored in structured format for easy expansion
 
-### Code Standards
-- **Function Limits**: 
-  - `graphics/`: Maximum 60 lines per function
-  - `src/`: Maximum 40 lines per function
-- **File Organization**: Maximum 6 functions per file (except data files)
-- **Clean Code**: Descriptive names, comprehensive docstrings, clear structure
-
 ### Performance Optimizations
 - Instant question display (no slow animations)
 - Fast lifeline responses
@@ -246,21 +241,23 @@ movie_mania/
 
 ---
 
-## 👤 Author
-
-**Nobu**
-- Stanford Code in Place Student
-- Final Project: Movie Mania
-- Course: [Code in Place 2024](https://codeinplace.stanford.edu/)
-
----
-
 ## 🙏 Acknowledgments
 
 - **Stanford Code in Place** - For the excellent course and teaching materials
-- **Stanford CS106A** - For the graphics library inspiration
+- **Stanford CS106A** - For the graphics library
 - **"Who Wants to Be a Millionaire?"** - For the game concept and format
 - **Instructors and Section Leaders** - For guidance and support throughout the course
+
+---
+
+## 👨‍💻 Author
+
+**Aleksandre Davitashvili**
+- Stanford Code in Place Student
+- Final Project: Movie Mania
+- Course: [Code in Place 2025](https://codeinplace.stanford.edu/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Adavitas-181717?style=flat&logo=github)](https://github.com/Adavitas)
 
 ---
 
@@ -270,9 +267,4 @@ This project is part of Stanford Code in Place coursework. Please refer to Stanf
 
 ---
 
-<div align="center">
-  <p><strong>Developed with ❤️ as part of Stanford Code in Place</strong></p>
-  <p>🎬 Enjoy the game! 🍿</p>
-  
-  [![Stanford](https://img.shields.io/badge/Stanford-Code%20in%20Place-red.svg)](https://codeinplace.stanford.edu/)
-</div>
+*Developed with as part of Stanford Code in Place course.*
